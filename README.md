@@ -40,3 +40,32 @@ The objective is not just to *use* large language models, but to **understand an
 - Why backpropagation works (not just how)
 
 📂 **Relevant files**
+
+
+
+---
+
+## 📅 Week 2 — Language Modeling Foundations: Bigrams & Tensors
+
+**Focus:** Understanding how language models work at the most fundamental level.
+
+### What I Implemented
+
+- Built a **character-level Bigram Language Model**
+- Implemented tokenization and count-based probability estimation
+- Trained the model using **Negative Log Likelihood loss**
+- Sampled text from learned probability distributions
+- Transitioned from pure Python to **PyTorch tensors**
+- Practiced tensor operations:
+  - Indexing
+  - Broadcasting
+  - Shape reasoning
+
+### Key Concepts Mastered
+
+- What “language modeling” actually means
+- How logits are converted into probabilities (softmax)
+- Sampling vs greedy decoding
+- Why tensors are central to deep learning
+
+📂 **Relevant files**
